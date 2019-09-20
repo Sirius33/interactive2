@@ -1,11 +1,25 @@
 body{
 	background-color: black;
+	font-family: futura, sans-serif;
+	font-size: 1em;
+	color: white;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-items:center;
+}
+
+main{
+	background-color: #216b88e0;
 }
 
 h1{
 	font-family: futura, sans-serif;
 	font-size: 1em;
 	color: white;
+	padding-left: 10px;
 	
 }
 
@@ -20,5 +34,37 @@ li{
 	background-color: #1da1c0;
 	float: left;
 	margin-left: 10px;
-	padding: 30px;
+	padding: 20px;
+	font-size:60px;
+	align-items: center;
+	text-align: center;
+	display: grid;
+	border-radius: 70%;
+	transition:transform 2000ms;
 }
+
+/*a{
+
+}*/
+
+a:link,a:visited{
+	color:#c73b3b;
+	text-decoration: none;
+}
+li:hover{
+	color: #f7c221;
+	transform: scale(0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
