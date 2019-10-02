@@ -52,6 +52,12 @@ p {
 	left: 460px;
 }
 
+#paragraph1{
+	position: absolute;
+	top: 550px;
+	left: 1550px;
+	font-size: 128PX;
+}
 
 
 /*body.landscapeanimation {
