@@ -80,8 +80,44 @@ p {
   position: absolute;
   top: 130px;
   left: 100px;
-
   
 }
+
+/*li{
+  
+  transition:transform 2000ms;
+}
+
+li:hover{
+  
+  transform: scale(0.2);
+}*/
+
+#phone{
+  
+  animation:change infinite 1s alternate;
+}
+#phone:hover{
+  animation-play-state: paused;
+}
+
+@keyframes change {
+  0%{
+    transform: scale(0.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
 
 

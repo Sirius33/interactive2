@@ -83,4 +83,22 @@ p {
 
   
 }
+#washing{
+  
+  animation:change infinite 1s alternate;
+}
+#washing:hover{
+  animation-play-state: paused;
+}
+
+@keyframes change {
+  0%{
+    transform: scale(0.2);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
 
