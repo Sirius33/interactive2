@@ -52,7 +52,7 @@ h1 {
 }
 
 p {
-  font-size:10px;
+  font-size:13px;
   font-family: Futura;
   color: white;  
 }
@@ -78,7 +78,7 @@ p {
 #monitor {
   padding-right: 19px;
   position: absolute;
-  top: 130px;
+  top: 210px;
   left: 100px;
 
   
@@ -101,5 +101,11 @@ p {
   100%{
     transform: scale(1);
   }
+}
+
+#back{
+  position: absolute;
+  top: 700PX;
+  left: 100px;
 }
 

@@ -1,0 +1,31 @@
+body {
+  background:#5888b9;
+  margin:0;
+  padding:0;
+  height:100vh;
+  display:grid;
+  align-items:center;
+  justify-items: center;
+}
+
+img{
+	height: 680px;
+	width:1220px;
+	position: absolute;
+	left: 510px;
+	top: 300px;
+
+}
+
+p {
+  font-size:40px;
+  font-family: Futura;
+  color: white;  
+}
+
+#paragraph{
+  position: absolute;
+  top: 900px;
+  left: 500px;
+}
+

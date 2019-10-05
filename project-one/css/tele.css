@@ -54,7 +54,7 @@ h1 {
 }
 
 p {
-  font-size:10px;
+  font-size:13px;
   font-family: Futura;
   color: white;  
 }
@@ -80,7 +80,7 @@ p {
 #television {
   padding-right: 19px;
   position: absolute;
-  top: 170px;
+  top: 230px;
   left: 100px;
 
   
@@ -104,4 +104,8 @@ p {
   }
 }
 
-
+#back{
+  position: absolute;
+  top: 700PX;
+  left: 100px;
+}

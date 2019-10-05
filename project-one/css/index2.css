@@ -1,0 +1,116 @@
+body{
+	background-color: #5888b9;
+	background-opacity:0.2;
+	
+	/*background-image: url("./images/l.png");
+	background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: right,left top;*/
+}
+
+p {
+  font-size:20px;
+  font-family: Futura;
+  color: white;
+  margin-top: -20px;  
+}
+
+#lanscape{
+	height: 630px;
+	width:1290px;
+	position: absolute;
+	left: 690px;
+	top: 340px;
+	transform: scale(1.35);
+	opacity:0.7;
+	
+}
+
+#phone{
+	position: absolute;
+	bottom: 120px;
+	left: 940px;
+}
+
+#dvd{
+	position: absolute;
+	bottom: 125px;
+	left: 1265px;
+}
+
+#television{
+	position: absolute;
+	top: 270px;
+	left: 1160px;
+}
+#monitor{
+	position: absolute;
+	top: 220px;
+	left: 880px;
+}
+#washing{
+	position: absolute;
+	top: 240px;
+	left: 420px;
+}
+#fridge{
+	position: absolute;
+	top: 630px;
+	left: 445px;
+}
+
+#paragraph{
+	position: absolute;
+	top: 950px;
+	left: 460px;
+	height: 200px;
+	width: 1100px;
+}
+
+/*#paragraph1{
+	position: absolute;
+	top: 550px;
+	left: 1570px;
+	font-size: 48PX;
+}*/
+
+#paragraph1{
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	font-size: 48px;
+	font-family: Futura;
+	/*transform: scale(2);*/
+	animation: mymove 10s infinite;
+
+}
+#paragraph1{
+	animation-timing-function: linear;
+}
+
+@keyframes mymove {
+	from {left:0px;}
+     to {left:2000px;}
+} 
+
+#back{
+	position: absolute;
+	top: 1200PX;
+	left: 100px;
+}
+
+
+
+
+/*body.landscapeanimation {
+  background: linear-gradient;
+  background-size: 100% 500%;
+  animation: motion 30s ease infinite;
+}
+
+@keyframes motion { 
+  0%{background-position:0% 0%}
+  50%{background-position:50% 50%}
+  100%{background-position:100% 0%}
+}*/

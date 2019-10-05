@@ -52,7 +52,7 @@ h1 {
 }
 
 p {
-  font-size:10px;
+  font-size:13px;
   font-family: Futura;
   color: white;  
 }
@@ -61,7 +61,7 @@ p {
   grid-template-columns:3;
   grid-template-rows:4;
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(130px, auto);
 }
 .one {
   grid-column: 4;
@@ -78,7 +78,7 @@ p {
 #washing {
   padding-right: 19px;
   position: absolute;
-  top: 160px;
+  top: 210px;
   left: 100px;
 
   
@@ -99,6 +99,12 @@ p {
   100%{
     transform: scale(1);
   }
+}
+
+#back{
+  position: absolute;
+  top: 700PX;
+  left: 100px;
 }
 
 
