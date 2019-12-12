@@ -1,0 +1,230 @@
+* { 
+       cursor: url("../images/nose.png"), auto; 
+       /*background-color:  #d1e6fa;*/
+       
+}
+body{
+      font:futura;
+      background: beige;
+}
+.grid-container{
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 6;
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      grid-auto-columns: minmax(100px, 300px);
+      
+      
+}
+.grid-paragraph1{
+      /*border: 1px solid white;*/
+      font-size: 20px;
+      text-align: left;
+      color: #6d6e71;
+      grid-column: 4;
+      grid-row: 5;
+      font-family: futura;
+
+}
+.grid-paragraph2{
+      /*border: 1px solid white;*/
+      font-size: 20px;
+      text-align: right;
+      color: #6d6e71;
+      grid-column: 4;
+      grid-row: 6;
+      font-family:futura;
+
+}
+
+
+
+
+
+
+.disk1{
+      position: absolute;
+      left:350px;
+      top:100px;
+      
+}
+.disk2{
+      position: absolute;
+      left:650px;
+      top:100px;
+}
+
+.disk1:hover{
+      animation: spin 0.01s infinite linear;
+}
+.disk2:hover{
+      animation: spin 0.01s infinite linear;
+}
+
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.cdplate{
+      position: absolute;
+      left:445px;
+      top:590px;
+}
+.cdremote{
+      position: absolute;
+      left:695px;
+      top:633px;
+}
+.cdbox{
+      position: absolute;
+      left:400px;
+      top:400px;
+}
+.button1{
+      position: absolute;
+      left: 550px;
+      top:700px;
+      cursor: pointer;
+
+}
+.button2{
+      position: absolute;
+      left: 535px;
+      top:730px;
+      cursor: pointer;
+
+}
+
+
+#honeydrip1,#honeydrip2,#honeydrip3,#honeydrip4,#honeydrip5,#honeydrip6 {
+      width: 90px;
+      height: 120px;
+      background: radial-gradient(circle at 100px 100px, #ff9b00, #fbc78a0a);
+      border-radius: 50%;
+      opacity:0.3;
+    }
+#honeydrip11,#honeydrip12,#honeydrip13,#honeydrip14,#honeydrip15,#honeydrip16,#honeydrip17,#honeydrip18 {
+      width: 45px;
+      height: 45px;
+      background: radial-gradient(circle at 100px 100px, #ff9b00, #fbc78a0a);
+      border-radius: 50%;
+      opacity:0.4;
+    }
+#honeydrip1{
+      position: absolute;
+      top:100px;
+      left:25px;
+}
+#honeydrip2{
+      position: absolute;
+      top:400px;
+      left:130px;
+}
+#honeydrip3{
+      position: absolute;
+      top:200px;
+      left:230px;
+}
+#honeydrip4{
+      position: absolute;
+      top:450px;
+      left:630px;
+}
+#honeydrip5{
+      position: absolute;
+      top:40px;
+      left:930px;
+}
+#honeydrip6{
+      position: absolute;
+      top:400px;
+      left:1130px;
+}
+
+#honeydrip11{
+      position: absolute;
+      top:25px;
+      left:100px;
+}
+#honeydrip12{
+      position: absolute;
+      top:600px;
+      left:15px;
+}
+#honeydrip13{
+      position: absolute;
+      top:650px;
+      left:300px;
+}
+#honeydrip14{
+      position: absolute;
+      top:100px;
+      left:25px;
+}
+#honeydrip15{
+      position: absolute;
+      top:100px;
+      left:500px;
+}
+#honeydrip16{
+      position: absolute;
+      top:70px;
+      left:700px;
+}
+#honeydrip17{
+      position: absolute;
+      top:400px;
+      left:900px;
+}
+#honeydrip18{
+      position: absolute;
+      top:200px;
+      left:1000px;
+}
+
+#honeydrip1:hover{
+
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+#honeydrip2:hover{
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+#honeydrip3:hover{
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+#honeydrip4:hover{
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+#honeydrip5:hover{
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+
+#honeydrip6:hover{
+      transition: transform 2000ms;
+      transform: scale(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

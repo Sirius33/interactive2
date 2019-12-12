@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.title{
+			border-bottom: 1px solid black;
+			padding: 35px;
+			cursor: s-resize;
+			font-family: Gill sans,monospace; 
+			color: yellow;
+		}
+		.title:hover{
+			background-color: black;
+		}
+		.content{
+			display: none;
+			padding: 28px;
+			border-bottom: 1px solid black;
+			color: red; 
+		}
+	</style>
+</head>
+<body>
+  <div class="week">
+  	<div class="title">Week1</div>
+  	<div class="content">This is the first week you weak girl!</div>
+  </div>
+
+  <div class="week">
+  	<div class="title">Week2</div>
+  	<div class="content">Well...the second week now...</div>
+  </div>
+
+  <div class="week">
+  	<div class="title">Week3</div>
+  	<div class="content">Guess what? Week 3 is coming!</div>
+  </div>
+
+  <div class="week">
+  	<div class="title">Week4</div>
+  	<div class="content">Thanks god it's week 4! I mean, I love midterm...</div>
+  </div>
+
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- scripts -->
+
+<script type="text/javascript">
+   $(".title").click(function(){
+   	$(this).parents(".week").find(".content").slideToggle();
+   });
+
+</script>
+
+
+</body>
+</html>

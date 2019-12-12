@@ -1,0 +1,226 @@
+*{
+	cursor: url("../images/nose.png"), auto;
+}
+body{
+	background-color: #19195f;
+
+
+}
+h1{
+	font-family: futura;
+	font-size: 30px;
+	color: #6d6e71;
+}
+button{
+      position: absolute;
+      left: 950px;
+      top:700px;
+      cursor: pointer;
+
+}
+
+.folder5{
+      position: absolute;
+      left:50px;
+      top:100px;
+      
+}
+.folder15{
+      position: absolute;
+      left:50px;
+      top:200px;
+      
+}
+.folder25{
+      position: absolute;
+      left:50px;
+      top:300px;
+      
+}
+.folder35{
+      position: absolute;
+      left:50px;
+      top:400px;
+      
+}
+.folder45{
+      position: absolute;
+      left:50px;
+      top:500px;
+      
+}
+.folder55{
+      position: absolute;
+      left:50px;
+      top:600px;
+      
+}
+p1{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:130px;
+}
+p2{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:230px;
+}
+p3{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:330px;
+}
+p4{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:430px;
+}
+p5{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:530px;
+}
+p6{
+font-family: futura;
+	font-size: 15px;
+	color: #6d6e71;
+	position: absolute;
+      left:180px;
+      top:630px;
+}
+
+
+.hided1 {
+	position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+
+    
+}
+.hided2 {
+	position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+
+    
+}
+.hided3 {
+    position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+}
+.hided4 {
+    position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+}
+.hided5 {
+    position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+}
+.hided6 {
+    position: absolute;
+	top: 100px;
+	left: 350px;
+    display: none;
+}
+
+.hided1:hover{
+      animation: spin 1s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.hided2:hover{
+      animation: spin 7s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.hided3:hover{
+      animation: spin 3s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.hided4:hover{
+      animation: spin 8s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.hided5:hover{
+      animation: spin 5.5s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+.hided6:hover{
+      animation: spin 9s infinite linear;
+}
+@keyframes spin {
+      from {
+            transition: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+
+
+
+
+
+
